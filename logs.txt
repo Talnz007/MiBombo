@@ -1,0 +1,464 @@
+I am still getting the grok can reply annd that other message here are the logs:
+*] Checking Twitter account: @farzanaalispark
+[*] Checking Twitter account: @AtharSb12
+[*] Checking Twitter account: @FalconUpdatesHQ
+[+] Metrics: {'replies': '0', 'reposts': '1', 'likes': '3', 'bookmarks': '1', 'views': '50'}
+[+] Saved screenshot: twitter_FalconUpdatesHQ_2047268414696378687_1776942013477.png
+/home/talnz/PythonProjects/automatingwork/shared_dedup.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "ts": datetime.utcnow().isoformat() + "Z",
+/home/talnz/PythonProjects/automatingwork/shared_dedup.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "ts": datetime.utcnow().isoformat() + "Z",
+/home/talnz/PythonProjects/automatingwork/shared_dedup.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "ts": datetime.utcnow().isoformat() + "Z",
+/home/talnz/PythonProjects/automatingwork/shared_dedup.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "ts": datetime.utcnow().isoformat() + "Z",
+/home/talnz/PythonProjects/automatingwork/shared_dedup.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "ts": datetime.utcnow().isoformat() + "Z",
+[DEDUP] Skipping already-seen/claimed URL: https://x.com/TKCkhyber/status/2047259630783623652
+[*] Cleaned up media: /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_tkckhyber_2047259630783623652_1776941465488.png
+[DEDUP] Skipping already-seen/claimed URL: https://x.com/TKCkhyber/status/2047259667609551196
+[*] Cleaned up media: /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_tkckhyber_2047259667609551196_1776941472008.png
+/home/talnz/PythonProjects/automatingwork/shared_dedup.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "ts": datetime.utcnow().isoformat() + "Z",
+[*] Skipping irrelevant post from @FalconUpdatesHQ: Putin’s grace and movements overshadowed Trump during their encounter in the US....
+[*] Cleaned up media: /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_FalconUpdatesHQ_2047268414696378687_1776942013477.png
+
+--- NEW OSINT POST #1 ---
+PLATFORM: TWITTER
+SOURCE  : Mohsin_o2
+DATE    : 2026-04-23T10:28:25.000Z
+URL     : https://x.com/Mohsin_o2/status/2047261303279104221
+TEXT    : Khurram Daud, now selected as the Pakistani astronaut to train for the Tiangong space station mission, previously detected and blocked an Indian submarine in the Arabian Sea in March 2019 while servin...
+IMAGE   : /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_Mohsin_o2_2047261303279104221_1776940704954.png
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@Mohsin_o2)...
+[*] Querying Grok... (Prompt length: 1568)
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_2.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[*] Navigating to Grok (Attempt 2/5)...
+[*] Navigating to Grok (Attempt 3/5)...
+[*] Navigating to Grok (Attempt 4/5)...
+[*] Navigating to Grok (Attempt 5/5)...
+[!] Could not load Grok after 5 attempts. Checking if rotation is needed.
+[-] Grok returned empty on attempt 1/5. Rotating cookies and retrying...
+[*] Rotated to global cookie file: /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_3.pkl
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_3.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[*] Initial Copy buttons on screen (history): 0
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button count increased (0 -> 1). Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Trying Copy Markdown extraction...
+[*] Found 'Copy markdown' menu option, clicking it.
+[+] Clipboard empty/failed. Extracting text directly from DOM container.
+[-] .markdown not found. Using fast inner_text() extraction.
+[+] Got body inner_text (2104 chars). Parsing with markers...
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+[+] Grok query finished. Output length: 156
+[!] No [CATEGORY] tag found in Grok response. Defaulting to category 2.
+[*] Grok classified this as category 2: REGIONAL
+[*] Dispatching to WhatsApp -> Regional news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Pre-launch delay: 2.5s
+[*] Opening WhatsApp Web to find 'Regional news'...
+[*] Image selected: twitter_Mohsin_o2_2047261303279104221_1776940704954.png
+[*] Image sent!
+[+] Message dispatched to 'Regional news'
+[RATE] Messages sent: 1/20 this hour for this group
+[*] Post-send cooldown: 20.9s before next message is allowed
+[+] WhatsApp message sent successfully.
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+[*] Cleaned up media: /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_Mohsin_o2_2047261303279104221_1776940704954.png
+[*] Queue gap: waiting 17s before next item...
+
+--- NEW OSINT POST #2 ---
+PLATFORM: TWITTER
+SOURCE  : Mohsin_o2
+DATE    : 2026-04-23T10:18:45.000Z
+URL     : https://x.com/Mohsin_o2/status/2047258868531773924
+TEXT    : Prime Minister Muhammad Shehbaz Sharif meets Pakistani Astronauts in Islamabad on 23 April, 2026....
+IMAGE   : /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_Mohsin_o2_2047258868531773924_1776940712490.png
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@Mohsin_o2)...
+[*] Querying Grok... (Prompt length: 1568)
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_1.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[*] Initial Copy buttons on screen (history): 0
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button count increased (0 -> 1). Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Trying Copy Markdown extraction...
+[*] Found 'Copy markdown' menu option, clicking it.
+[+] Clipboard empty/failed. Extracting text directly from DOM container.
+[-] .markdown not found. Using fast inner_text() extraction.
+[+] Got body inner_text (1924 chars). Parsing with markers...
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+[+] Grok query finished. Output length: 145
+[!] No [CATEGORY] tag found in Grok response. Defaulting to category 2.
+[*] Grok classified this as category 2: REGIONAL
+[*] Dispatching to WhatsApp -> Regional news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Pre-launch delay: 4.6s
+[*] Opening WhatsApp Web to find 'Regional news'...
+[*] Image selected: twitter_Mohsin_o2_2047258868531773924_1776940712490.png
+[*] Image sent!
+[+] Message dispatched to 'Regional news'
+[RATE] Messages sent: 2/20 this hour for this group
+[*] Post-send cooldown: 19.6s before next message is allowed
+[+] WhatsApp message sent successfully.
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+[*] Cleaned up media: /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_Mohsin_o2_2047258868531773924_1776940712490.png
+[*] Queue gap: waiting 25s before next item...
+
+--- NEW OSINT POST #3 ---
+PLATFORM: TWITTER
+SOURCE  : Mohsin_o2
+DATE    : 2026-04-23T10:17:32.000Z
+URL     : https://x.com/Mohsin_o2/status/2047258563714900190
+TEXT    : The Beautiful Capital of the Islamic Republic of Pakistan .
+
+Please don't ruin my City...
+IMAGE   : /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_Mohsin_o2_2047258563714900190_1776940719656.png
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@Mohsin_o2)...
+[*] Querying Grok... (Prompt length: 1568)
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_2.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[*] Navigating to Grok (Attempt 2/5)...
+[*] Navigating to Grok (Attempt 3/5)...
+[*] Navigating to Grok (Attempt 4/5)...
+[*] Navigating to Grok (Attempt 5/5)...
+[!] Could not load Grok after 5 attempts. Checking if rotation is needed.
+[-] Grok returned empty on attempt 1/5. Rotating cookies and retrying...
+[*] Rotated to global cookie file: /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_1.pkl
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_1.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[*] Initial Copy buttons on screen (history): 0
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button count increased (0 -> 1). Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Trying Copy Markdown extraction...
+[*] Found 'Copy markdown' menu option, clicking it.
+[+] Clipboard empty/failed. Extracting text directly from DOM container.
+[-] .markdown not found. Using fast inner_text() extraction.
+[+] Got body inner_text (1913 chars). Parsing with markers...
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+[+] Grok query finished. Output length: 145
+[!] No [CATEGORY] tag found in Grok response. Defaulting to category 2.
+[*] Grok classified this as category 2: REGIONAL
+[*] Dispatching to WhatsApp -> Regional news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Pre-launch delay: 3.0s
+[*] Opening WhatsApp Web to find 'Regional news'...
+[*] Image selected: twitter_Mohsin_o2_2047258563714900190_1776940719656.png
+[*] Image sent!
+[+] Message dispatched to 'Regional news'
+[RATE] Messages sent: 3/20 this hour for this group
+[*] Post-send cooldown: 15.6s before next message is allowed
+[+] WhatsApp message sent successfully.
+[*] Cleaned up media: /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_Mohsin_o2_2047258563714900190_1776940719656.png
+[*] Queue gap: waiting 29s before next item...
+
+--- NEW OSINT POST #4 ---
+PLATFORM: TWITTER
+SOURCE  : tkckhyber
+DATE    : 2026-04-23T10:44:00.000Z
+URL     : https://x.com/TKCkhyber/status/2047265222789152827
+TEXT    : If the Afghan Taliban have arrested any extremist, then they should bring it to Pakistan's notice that they have arrested this person; if cases are running against them in the courts, then Pakistan's ...
+IMAGE   : /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_tkckhyber_2047265222789152827_1776941452279.png
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@tkckhyber)...
+[*] Querying Grok... (Prompt length: 1568)
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_2.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[*] Navigating to Grok (Attempt 2/5)...
+[*] Navigating to Grok (Attempt 3/5)...
+[*] Navigating to Grok (Attempt 4/5)...
+[*] Navigating to Grok (Attempt 5/5)...
+[!] Could not load Grok after 5 attempts. Checking if rotation is needed.
+[-] Grok returned empty on attempt 1/5. Rotating cookies and retrying...
+[*] Rotated to global cookie file: /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies.pkl
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[*] Initial Copy buttons on screen (history): 0
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button count increased (0 -> 1). Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Trying Copy Markdown extraction...
+[*] Found 'Copy markdown' menu option, clicking it.
+[+] Clipboard empty/failed. Extracting text directly from DOM container.
+[-] .markdown not found. Using fast inner_text() extraction.
+[+] Got body inner_text (2115 chars). Parsing with markers...
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+[+] Grok query finished. Output length: 156
+[!] No [CATEGORY] tag found in Grok response. Defaulting to category 2.
+[*] Grok classified this as category 2: REGIONAL
+[*] Dispatching to WhatsApp -> Regional news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Pre-launch delay: 3.7s
+[*] Opening WhatsApp Web to find 'Regional news'...
+[*] Image selected: twitter_tkckhyber_2047265222789152827_1776941452279.png
+[*] Image sent!
+[+] Message dispatched to 'Regional news'
+[RATE] Messages sent: 4/20 this hour for this group
+[*] Post-send cooldown: 20.0s before next message is allowed
+[+] WhatsApp message sent successfully.
+[*] Cleaned up media: /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_tkckhyber_2047265222789152827_1776941452279.png
+[*] Queue gap: waiting 20s before next item...
+--- NEW OSINT POST #4 ---
+PLATFORM: TWITTER
+SOURCE  : tkckhyber
+DATE    : 2026-04-23T10:44:00.000Z
+URL     : https://x.com/TKCkhyber/status/2047265222789152827
+TEXT    : If the Afghan Taliban have arrested any extremist, then they should bring it to Pakistan's notice that they have arrested this person; if cases are running against them in the courts, then Pakistan's ...
+IMAGE   : /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_tkckhyber_2047265222789152827_1776941452279.png
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@tkckhyber)...
+[*] Querying Grok... (Prompt length: 1568)
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_2.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[*] Navigating to Grok (Attempt 2/5)...
+[*] Navigating to Grok (Attempt 3/5)...
+[*] Navigating to Grok (Attempt 4/5)...
+[*] Navigating to Grok (Attempt 5/5)...
+[!] Could not load Grok after 5 attempts. Checking if rotation is needed.
+[-] Grok returned empty on attempt 1/5. Rotating cookies and retrying...
+[*] Rotated to global cookie file: /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies.pkl
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[*] Initial Copy buttons on screen (history): 0
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button count increased (0 -> 1). Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Trying Copy Markdown extraction...
+[*] Found 'Copy markdown' menu option, clicking it.
+[+] Clipboard empty/failed. Extracting text directly from DOM container.
+[-] .markdown not found. Using fast inner_text() extraction.
+[+] Got body inner_text (2115 chars). Parsing with markers...
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+[+] Grok query finished. Output length: 156
+[!] No [CATEGORY] tag found in Grok response. Defaulting to category 2.
+[*] Grok classified this as category 2: REGIONAL
+[*] Dispatching to WhatsApp -> Regional news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Pre-launch delay: 3.7s
+[*] Opening WhatsApp Web to find 'Regional news'...
+[*] Image selected: twitter_tkckhyber_2047265222789152827_1776941452279.png
+[*] Image sent!
+[+] Message dispatched to 'Regional news'
+[RATE] Messages sent: 4/20 this hour for this group
+[*] Post-send cooldown: 20.0s before next message is allowed
+[+] WhatsApp message sent successfully.
+[*] Cleaned up media: /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_tkckhyber_2047265222789152827_1776941452279.png
+[*] Queue gap: waiting 20s before next item...
+
+--- NEW OSINT POST #5 ---
+PLATFORM: TWITTER
+SOURCE  : tkckhyber
+DATE    : 2026-04-23T10:32:36.000Z
+URL     : https://x.com/TKCkhyber/status/2047262353469895063
+TEXT    : Court Rejects Interim Bail of Accused in Peshawar Police Mobile Suicide Attack Case
+
+Read more: 
+https://
+khyberchronicles.pk/court-rejects-
+interim-bail-of-accused-in-peshawar-police-mobile-suicide-a...
+IMAGE   : /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_tkckhyber_2047262353469895063_1776941458814.png
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@tkckhyber)...
+[*] Querying Grok... (Prompt length: 1568)
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_2.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[*] Navigating to Grok (Attempt 2/5)...
+[*] Navigating to Grok (Attempt 3/5)...
+[*] Navigating to Grok (Attempt 4/5)...
+[*] Navigating to Grok (Attempt 5/5)...
+[!] Could not load Grok after 5 attempts. Checking if rotation is needed.
+[-] Grok returned empty on attempt 1/5. Rotating cookies and retrying...
+[*] Rotated to global cookie file: /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_3.pkl
+[*] Loading cookies from /home/talnz/PythonProjects/automatingwork/cookies/twitter_cookies_3.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[*] Initial Copy buttons on screen (history): 0
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button count increased (0 -> 1). Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Trying Copy Markdown extraction...
+[*] Found 'Copy markdown' menu option, clicking it.
+[+] Clipboard empty/failed. Extracting text directly from DOM container.
+[-] .markdown not found. Using fast inner_text() extraction.
+[+] Got body inner_text (2056 chars). Parsing with markers...
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+Exception in callback SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at /home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py:111>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingwork/venv/lib64/python3.14/site-packages/playwright/_impl/_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+[+] Grok query finished. Output length: 156
+[!] No [CATEGORY] tag found in Grok response. Defaulting to category 2.
+[*] Grok classified this as category 2: REGIONAL
+[*] Dispatching to WhatsApp -> Regional news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Pre-launch delay: 4.8s
+[*] Opening WhatsApp Web to find 'Regional news'...
+[*] Image selected: twitter_tkckhyber_2047262353469895063_1776941458814.png
+[*] Image sent!
+[+] Message dispatched to 'Regional news'
+[RATE] Messages sent: 5/20 this hour for this group
+[*] Post-send cooldown: 15.6s before next message is allowed
+[+] WhatsApp message sent successfully.
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+[*] Cleaned up media: /home/talnz/PythonProjects/automatingwork/regional_news/output/media/twitter_tkckhyber_2047262353469895063_1776941458814.png
+[*] Queue gap: waiting 20s before next item...
+
+[*] Dispatched 5 items this cycle.
+[+] Saved 5 raw records to osint_latest_news.json (total: 13298)
+[+] Saved 5 processed records to osint_processed_reports.json (total: 755)
+[*] Sleeping for 30 minutes (1800 seconds)...

@@ -1,0 +1,23 @@
+# Sensitive session data
+whatsapp_session/
+twitter_cookies*.pkl
+telegram_session.session
+seen_posts.json
+current_cookie_index.txt
+
+# Temporary files & Logs
+__pycache__/
+output/
+media/
+error.log
+error_utf8.log
+*.png
+*.html
+*.txt
+!requirements.txt
+!README.md
+!targets.json
+!.gitignore
+
+# Large documentation/misc
+Mill Abvns & Symbols SD Vol 3.pdf

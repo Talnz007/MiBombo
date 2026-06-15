@@ -1,0 +1,269 @@
+└─[$] <git:(main*)> python main.py          
+==================================================
+      AUTOMATED OSINT NEWS SCRAPER STARTED
+==================================================
+[*] Checking Ollama connectivity...
+[!] Ollama not reachable: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused")). Make sure 'ollama serve' is running.
+
+[2026-03-20 00:56:33] starting parallel OSINT scraping cycle...
+[*] Starting Twitter Scraper for 15 accounts...
+[*] Starting Website Scraper for 4 sites...
+[*] Checking website/feed: https://thekhorasandiary.com
+[*] Starting DuckDuckGo News Search for 4 queries...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:18: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Searching DDG News for: Pakistan militant activity news
+[!] Error loading Twitter cookies: BrowserContext.add_cookies: cookies[0].sameSite: expected one of (Strict|Lax|None)
+[!] Failed to load cookies. Exiting Twitter scraper.
+[*] RSS empty for https://thekhorasandiary.com. Trying DDG News Search (site:thekhorasandiary.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://thekhorasandiary.com...
+[*] Searching DDG News for: Afghanistan TTA FAK news
+[*] Checking website/feed: https://www.tracreports.org
+[*] Searching DDG News for: TTP BLA insurgency Pakistan
+[-] Final attempt failed for https://www.tracreports.org: HTTPSConnectionPool(host='www.tracreports.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tracreports.org'. (_ssl.c:1004)")))
+[*] Checking website/feed: https://www.terrorismanalytics.org
+[*] Searching DDG News for: South Asia OSINT updates
+[*] RSS empty for https://www.terrorismanalytics.org. Trying DDG News Search (site:www.terrorismanalytics.org)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://www.terrorismanalytics.org...
+[*] Checking website/feed: https://ent.siteintelgroup.com
+[*] RSS empty for https://ent.siteintelgroup.com. Trying DDG News Search (site:ent.siteintelgroup.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+
+--- NEW OSINT POST #1 ---
+PLATFORM: WEBSITE
+SOURCE  : DuckDuckGo News
+DATE    : 2026-03-19T18:47:00+00:00
+URL     : https://dailystar.com.lb/pakistan-strategic-balancing-act-turbulent-region/
+TEXT    : Pakistan's Strategic Balancing Act in a Turbulent Region - The Daily Star...
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@DuckDuckGo News)...
+[*] Querying Grok... (Prompt length: 1328)
+[*] Trying naive HTML parsing for https://ent.siteintelgroup.com...
+[*] Loading cookies from /home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/cookies/cookie2.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button appeared. Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Extracting text directly from DOM container.
+[-] Could not find .markdown container. Falling back to body.
+[+] Grok query finished. Output length: 2896
+[+] parse_category: found [CATEGORY: 1] in response.
+[*] Grok classified this as category 1: GLOBAL (Automated news)
+[*] Dispatching to WhatsApp -> Automated news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Opening WhatsApp Web to find 'Automated news'...
+[+] Message forcefully dispatched to 'Automated news'
+[+] WhatsApp message sent successfully.
+
+--- NEW OSINT POST #2 ---
+PLATFORM: WEBSITE
+SOURCE  : DuckDuckGo News
+DATE    : 2026-03-19T14:20:00+00:00
+URL     : https://www.koreaherald.com/article/10698141
+TEXT    : Global terrorism falls to a decade low but Western fatalities surge - The Korea Herald...
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@DuckDuckGo News)...
+[*] Querying Grok... (Prompt length: 1297)
+[*] Loading cookies from /home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/cookies/cookie2.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button appeared. Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Extracting text directly from DOM container.
+[-] Could not find .markdown container. Falling back to body.
+[+] Grok query finished. Output length: 2971
+[+] parse_category: found [CATEGORY: 1] in response.
+[*] Grok classified this as category 1: GLOBAL (Automated news)
+[*] Dispatching to WhatsApp -> Automated news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Opening WhatsApp Web to find 'Automated news'...
+[+] Message forcefully dispatched to 'Automated news'
+[+] WhatsApp message sent successfully.
+
+--- NEW OSINT POST #3 ---
+PLATFORM: WEBSITE
+SOURCE  : DuckDuckGo News
+DATE    : 2026-03-19T08:52:00+00:00
+URL     : https://en.yna.co.kr/view/RPR20260319004500353
+TEXT    : [PRNewswire] Global terrorism falls to a decade low - Yonhap News Agency...
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@DuckDuckGo News)...
+[*] Querying Grok... (Prompt length: 1299)
+[*] Loading cookies from /home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/cookies/cookie2.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button appeared. Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Extracting text directly from DOM container.
+[-] Could not find .markdown container. Falling back to body.
+[+] Grok query finished. Output length: 3127
+[+] parse_category: found [CATEGORY: 1] in response.
+[*] Grok classified this as category 1: GLOBAL (Automated news)
+[*] Dispatching to WhatsApp -> Automated news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Opening WhatsApp Web to find 'Automated news'...
+[+] Message forcefully dispatched to 'Automated news'
+[+] WhatsApp message sent successfully.
+
+--- NEW OSINT POST #4 ---
+PLATFORM: WEBSITE
+SOURCE  : DuckDuckGo News
+DATE    : 2026-03-19T14:48:48+00:00
+URL     : https://www.msn.com/en-in/news/world/pakistan-s-strategic-trap-why-islamabad-will-not-follow-riyadh-into-us-israel-war-with-iran/ar-AA1YZ9gB
+TEXT    : Pakistan's strategic trap - why Islamabad will not follow Riyadh into US-Israel war with Iran - Asianet Newsable...
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@DuckDuckGo News)...
+[*] Querying Grok... (Prompt length: 1393)
+[*] Loading cookies from /home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/cookies/cookie2.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button appeared. Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Extracting text directly from DOM container.
+[-] Could not find .markdown container. Falling back to body.
+[+] Grok query finished. Output length: 2991
+[+] parse_category: found [CATEGORY: 1] in response.
+[*] Grok classified this as category 1: GLOBAL (Automated news)
+[*] Dispatching to WhatsApp -> Automated news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Opening WhatsApp Web to find 'Automated news'...
+[+] Message forcefully dispatched to 'Automated news'
+[+] WhatsApp message sent successfully.
+
+[*] Dispatched 4 items this cycle.
+[*] Sleeping for 30 minutes (1800 seconds)...
+
+[2026-03-20 01:33:43] starting parallel OSINT scraping cycle...
+[*] Starting Twitter Scraper for 15 accounts...
+[*] Starting Website Scraper for 4 sites...
+[*] Checking website/feed: https://thekhorasandiary.com
+[*] Starting DuckDuckGo News Search for 4 queries...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:18: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Searching DDG News for: Pakistan militant activity news
+[!] Error loading Twitter cookies: BrowserContext.add_cookies: cookies[0].sameSite: expected one of (Strict|Lax|None)
+[!] Failed to load cookies. Exiting Twitter scraper.
+[*] RSS empty for https://thekhorasandiary.com. Trying DDG News Search (site:thekhorasandiary.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://thekhorasandiary.com...
+[*] Searching DDG News for: Afghanistan TTA FAK news
+[*] Checking website/feed: https://www.tracreports.org
+[*] Searching DDG News for: TTP BLA insurgency Pakistan
+[-] Final attempt failed for https://www.tracreports.org: HTTPSConnectionPool(host='www.tracreports.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tracreports.org'. (_ssl.c:1004)")))
+[*] Searching DDG News for: South Asia OSINT updates
+[*] Checking website/feed: https://www.terrorismanalytics.org
+[*] RSS empty for https://www.terrorismanalytics.org. Trying DDG News Search (site:www.terrorismanalytics.org)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://www.terrorismanalytics.org...
+[*] Checking website/feed: https://ent.siteintelgroup.com
+[*] RSS empty for https://ent.siteintelgroup.com. Trying DDG News Search (site:ent.siteintelgroup.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+
+--- NEW OSINT POST #1 ---
+PLATFORM: WEBSITE
+SOURCE  : DuckDuckGo News
+DATE    : 2026-03-18T21:53:00+00:00
+URL     : https://www.ft.com/content/070dafbe-c6a9-4c1b-8985-2ab01dcb18e5?syn-25a6b1a6=1
+TEXT    : FirstFT: Pakistan and Afghanistan pause hostilities after Kabul attack - Financial Times...
+========================================
+[*] Passing item to local AI Reporter...
+[*] Formatting prompt for Grok (@DuckDuckGo News)...
+[*] Querying Grok... (Prompt length: 1331)
+[*] Trying naive HTML parsing for https://ent.siteintelgroup.com...
+[*] Loading cookies from /home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/cookies/cookie2.pkl
+[*] Navigating to Grok (Attempt 1/5)...
+[+] Grok UI loaded successfully (textarea found).
+[+] Prompt submitted. Waiting for Grok to finish typing...
+[*] Copy button appeared. Generation complete.
+[+] Saved grok_debug_test.png for analysis
+[+] Grok finished typing. Extracting text directly from DOM container.
+[-] Could not find .markdown container. Falling back to body.
+[+] Grok query finished. Output length: 3141
+[+] parse_category: found [CATEGORY: 1] in response.
+[*] Grok classified this as category 1: GLOBAL (Automated news)
+[*] Dispatching to WhatsApp -> Automated news...
+[*] Trying to acquire global WhatsApp lock...
+[+] Lock acquired! Launching WhatsApp...
+[*] Opening WhatsApp Web to find 'Automated news'...
+[+] Message forcefully dispatched to 'Automated news'
+[+] WhatsApp message sent successfully.
+
+[*] Dispatched 1 items this cycle.
+[*] Sleeping for 30 minutes (1800 seconds)...
+
+[2026-03-20 02:05:24] starting parallel OSINT scraping cycle...
+[*] Starting Twitter Scraper for 15 accounts...
+[*] Starting Website Scraper for 4 sites...
+[*] Checking website/feed: https://thekhorasandiary.com
+[*] Starting DuckDuckGo News Search for 4 queries...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:18: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Searching DDG News for: Pakistan militant activity news
+[!] Error loading Twitter cookies: BrowserContext.add_cookies: cookies[0].sameSite: expected one of (Strict|Lax|None)
+[!] Failed to load cookies. Exiting Twitter scraper.
+[*] Searching DDG News for: Afghanistan TTA FAK news
+[*] RSS empty for https://thekhorasandiary.com. Trying DDG News Search (site:thekhorasandiary.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://thekhorasandiary.com...
+[*] Searching DDG News for: TTP BLA insurgency Pakistan
+[*] Checking website/feed: https://www.tracreports.org
+[*] Searching DDG News for: South Asia OSINT updates
+[-] Final attempt failed for https://www.tracreports.org: HTTPSConnectionPool(host='www.tracreports.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tracreports.org'. (_ssl.c:1004)")))
+[*] Checking website/feed: https://www.terrorismanalytics.org
+[*] RSS empty for https://www.terrorismanalytics.org. Trying DDG News Search (site:www.terrorismanalytics.org)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://www.terrorismanalytics.org...
+[*] Checking website/feed: https://ent.siteintelgroup.com
+[*] RSS empty for https://ent.siteintelgroup.com. Trying DDG News Search (site:ent.siteintelgroup.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://ent.siteintelgroup.com...
+[*] No new items found in this cycle.
+[*] Sleeping for 30 minutes (1800 seconds)...
+^CTraceback (most recent call last):
+  File "/usr/lib64/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/main.py", line 263, in main
+    await asyncio.sleep(1800)
+  File "/usr/lib64/python3.11/asyncio/tasks.py", line 649, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/osint_news_scraper/main.py", line 266, in <module>
+    asyncio.run(main())
+  File "/usr/lib64/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt

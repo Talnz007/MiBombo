@@ -1,0 +1,106 @@
+python main.py          
+==================================================
+      AUTOMATED OSINT NEWS SCRAPER STARTED
+==================================================
+[*] Checking Ollama connectivity...
+[!] Ollama not reachable: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused")). Make sure 'ollama serve' is running.
+
+[2026-03-20 00:56:30] starting parallel OSINT scraping cycle...
+[*] Starting Twitter Scraper for 64 accounts...
+[*] Starting Website Scraper for 4 sites...
+[*] Checking website/feed: https://thekhorasandiary.com
+[*] RSS empty for https://thekhorasandiary.com. Trying DDG News Search (site:thekhorasandiary.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[!] Error loading Twitter cookies: BrowserContext.add_cookies: cookies[0].sameSite: expected one of (Strict|Lax|None)
+[!] Failed to load cookies. Exiting Twitter scraper.
+[*] Trying naive HTML parsing for https://thekhorasandiary.com...
+[*] Checking website/feed: https://www.tracreports.org
+[-] Final attempt failed for https://www.tracreports.org: HTTPSConnectionPool(host='www.tracreports.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tracreports.org'. (_ssl.c:1004)")))
+[*] Checking website/feed: https://www.terrorismanalytics.org
+[*] RSS empty for https://www.terrorismanalytics.org. Trying DDG News Search (site:www.terrorismanalytics.org)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://www.terrorismanalytics.org...
+[*] Checking website/feed: https://ent.siteintelgroup.com
+[*] RSS empty for https://ent.siteintelgroup.com. Trying DDG News Search (site:ent.siteintelgroup.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://ent.siteintelgroup.com...
+[*] No new items found in this cycle.
+[*] Sleeping for 30 minutes (1800 seconds)...
+
+[2026-03-20 01:26:47] starting parallel OSINT scraping cycle...
+[*] Starting Twitter Scraper for 64 accounts...
+[*] Starting Website Scraper for 4 sites...
+[*] Checking website/feed: https://thekhorasandiary.com
+[!] Error loading Twitter cookies: BrowserContext.add_cookies: cookies[0].sameSite: expected one of (Strict|Lax|None)
+[!] Failed to load cookies. Exiting Twitter scraper.
+[*] RSS empty for https://thekhorasandiary.com. Trying DDG News Search (site:thekhorasandiary.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://thekhorasandiary.com...
+[*] Checking website/feed: https://www.tracreports.org
+[-] Final attempt failed for https://www.tracreports.org: HTTPSConnectionPool(host='www.tracreports.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tracreports.org'. (_ssl.c:1004)")))
+[*] Checking website/feed: https://www.terrorismanalytics.org
+[*] RSS empty for https://www.terrorismanalytics.org. Trying DDG News Search (site:www.terrorismanalytics.org)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://www.terrorismanalytics.org...
+[*] Checking website/feed: https://ent.siteintelgroup.com
+[*] RSS empty for https://ent.siteintelgroup.com. Trying DDG News Search (site:ent.siteintelgroup.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://ent.siteintelgroup.com...
+[*] No new items found in this cycle.
+[*] Sleeping for 30 minutes (1800 seconds)...
+
+[2026-03-20 01:57:08] starting parallel OSINT scraping cycle...
+[*] Starting Twitter Scraper for 64 accounts...
+[*] Starting Website Scraper for 4 sites...
+[*] Checking website/feed: https://thekhorasandiary.com
+[!] Error loading Twitter cookies: BrowserContext.add_cookies: cookies[0].sameSite: expected one of (Strict|Lax|None)
+[!] Failed to load cookies. Exiting Twitter scraper.
+[*] RSS empty for https://thekhorasandiary.com. Trying DDG News Search (site:thekhorasandiary.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://thekhorasandiary.com...
+[*] Checking website/feed: https://www.tracreports.org
+[-] Final attempt failed for https://www.tracreports.org: HTTPSConnectionPool(host='www.tracreports.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tracreports.org'. (_ssl.c:1004)")))
+[*] Checking website/feed: https://www.terrorismanalytics.org
+[*] RSS empty for https://www.terrorismanalytics.org. Trying DDG News Search (site:www.terrorismanalytics.org)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://www.terrorismanalytics.org...
+[*] Checking website/feed: https://ent.siteintelgroup.com
+[*] RSS empty for https://ent.siteintelgroup.com. Trying DDG News Search (site:ent.siteintelgroup.com)...
+/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/website_scraper.py:114: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+[*] Trying naive HTML parsing for https://ent.siteintelgroup.com...
+[*] No new items found in this cycle.
+[*] Sleeping for 30 minutes (1800 seconds)...
+^CTraceback (most recent call last):
+  File "/usr/lib64/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/main.py", line 263, in main
+    await asyncio.sleep(1800)
+  File "/usr/lib64/python3.11/asyncio/tasks.py", line 649, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/talnz/PythonProjects/automatingmeworktotalha/automatingmework/regional_news/main.py", line 266, in <module>
+    asyncio.run(main())
+  File "/usr/lib64/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt

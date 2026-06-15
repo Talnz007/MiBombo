@@ -1,0 +1,11 @@
+playwright
+playwright-stealth
+beautifulsoup4
+requests
+feedparser
+telethon
+deep-translator
+markdownify
+pyperclip
+python-dotenv
+duckduckgo-search
