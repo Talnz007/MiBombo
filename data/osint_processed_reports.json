@@ -538,5 +538,23 @@
         "delivery_status": "sent",
         "delivery_error": null,
         "ai_error": null
+    },
+    {
+        "processed_at": "2026-06-15T21:43:01.734925+00:00",
+        "source_pipeline": "regional_news",
+        "url": "https://x.com/bytli3/status/2066636485697130759",
+        "platform": "twitter",
+        "account": "bytli3",
+        "original_text": "عاجل\n\n#إقليم_كشمير | #باكستان \n\nبثت \"طالبان باكستان\" فيديو وثائقيًا حول الجرائم المستمرة للجيش الباكستاني في كشمير، بعنوان:\n\n(إن لم ننتفض الآن، فمتى؟)\n\n يتعرض الشعب الكشميري خلال هذه الأيام لأبشع الجرائم من قبل الجيش الباكستاني وسط تكتم إعلامي صارم تفرضه الحكومة الباكستانية.",
+        "scraped_date": "2026-06-15T21:38:29.000Z",
+        "category_id": 2,
+        "category_label": "REGIONAL",
+        "target_whatsapp_group": "Regional news",
+        "grok_raw_response": "**CATEGORY: 2**\n\n*Aoa, sir*  \n\n🔶Subject : *OSINT Update – TTP (Ks) Propaganda Video on AJK (15 Jun 2026)*  \n\n🔹**TTP (Khawarij)** account @bytli3 shared a documentary-style video titled *\"If We Do Not Rise Now, Then When?\"* accusing **Pakistan Army** of crimes in **Kashmir** (AJK), claiming media blackout by the government.  \n\n🔹Video includes clips of protests, injured civilians, and operations; low engagement (19 views, 1 like) as of posting.  \n\n🔹**Source credibility low**: @bytli3 bio focuses on \"Balochistan issues\" and \"Ummah\", typical of pro-separatist/anti-state handles pushing FAK-aligned narratives against Pakistan.  \n\n🔶 *Narrative from Official/Pro-Pak*: Pakistan Armed Forces maintain peace and security in **Azad Jammu & Kashmir (AJK)** against external threats and internal saboteurs. Any TTP (Ks) claims are fabricated propaganda to incite unrest and undermine state institutions; **ISPR** routinely counters such disinformation from banned outfits operating from Afghan soil. Operations target only terrorists threatening sovereignty.  \n\n🔶 *Narrative from Anti-State/Propaganda*: TTP (Ks) and aligned accounts allege \"ongoing atrocities\" by the army on Kashmiri people, calling for uprising with graphic footage to portray security forces negatively and exploit regional sensitivities.  \n\n🔶 *Sentiment/Reach*: Strongly negative anti-Pakistan, low reach and minimal interaction indicating limited traction for this propaganda effort. Likely aimed at diaspora and cross-border radicalization.  \n\nLinks:  \n- https://x.com/bytli3/status/2066636485697130759 (TTP propaganda documentary post with videos/photos)  \n- Official ISPR channels for accurate updates on AJK security.  \n\n*Regards*",
+        "whatsapp_message_sent": "**CATEGORY: 2**\n\n*Aoa, sir*  \n\n🔶Subject : *OSINT Update – TTP (Ks) Propaganda Video on AJK (15 Jun 2026)*  \n\n🔹**TTP (Khawarij)** account @bytli3 shared a documentary-style video titled *\"If We Do Not Rise Now, Then When?\"* accusing **Pakistan Army** of crimes in **Kashmir** (AJK), claiming media blackout by the government.  \n\n🔹Video includes clips of protests, injured civilians, and operations; low engagement (19 views, 1 like) as of posting.  \n\n🔹**Source credibility low**: @bytli3 bio focuses on \"Balochistan issues\" and \"Ummah\", typical of pro-separatist/anti-state handles pushing FAK-aligned narratives against Pakistan.  \n\n🔶 *Narrative from Official/Pro-Pak*: Pakistan Armed Forces maintain peace and security in **Azad Jammu & Kashmir (AJK)** against external threats and internal saboteurs. Any TTP (Ks) claims are fabricated propaganda to incite unrest and undermine state institutions; **ISPR** routinely counters such disinformation from banned outfits operating from Afghan soil. Operations target only terrorists threatening sovereignty.  \n\n🔶 *Narrative from Anti-State/Propaganda*: TTP (Ks) and aligned accounts allege \"ongoing atrocities\" by the army on Kashmiri people, calling for uprising with graphic footage to portray security forces negatively and exploit regional sensitivities.  \n\n🔶 *Sentiment/Reach*: Strongly negative anti-Pakistan, low reach and minimal interaction indicating limited traction for this propaganda effort. Likely aimed at diaspora and cross-border radicalization.  \n\nLinks:  \n- https://x.com/bytli3/status/2066636485697130759 (TTP propaganda documentary post with videos/photos)  \n- Official ISPR channels for accurate updates on AJK security.  \n\n*Regards*",
+        "had_image": false,
+        "delivery_status": "sent",
+        "delivery_error": null,
+        "ai_error": null
     }
 ]
