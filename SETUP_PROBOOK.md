@@ -1,37 +1,53 @@
 # HP ProBook 6460b — Setup & Deployment Guide
 
-This guide details how to clone the new root repository onto the HP ProBook 6460b and get the OSINT pipeline running, assuming the virtual environment (`venv`) and requirements are already prepared.
+This guide details how to link your existing directory `/home/talnz/automating work` (which contains your active `whatsapp_session` and `venv`) to the new GitHub repository, and run the OSINT pipeline.
 
-## 1. Initial Git Setup
+## 1. Connecting the Existing Directory to Git
 
-Since the ProBook already has Python, `venv`, and the requirements installed, we only need to configure Git, pull the new repository, and set up the cron job.
+Since `/home/talnz/automating work` already has Python, `venv`, and the `whatsapp_session` folder, we can initialize Git directly in it and sync it with the remote repository. 
 
-First, set up your global Git configuration if you haven't already:
+> [!IMPORTANT]
+> The directory name contains a space (`automating work`). In the terminal, you must escape it as `automating\ work` or wrap it in double quotes `"automating work"`.
 
-```bash
-git config --global user.name "talnz007"
-git config --global user.email "Talhaniazai007@gmail.com"
-```
+### Step-by-Step Sync Instructions
 
-### Option A: If the directory `/home/talnz/PythonProjects/automatingwork` DOES NOT exist yet:
+1. **Navigate to the directory:**
+   ```bash
+   cd "/home/talnz/automating work"
+   ```
 
-```bash
-cd /home/talnz/PythonProjects/
-git clone <URL_OF_YOUR_NEW_REPO> automatingwork
-cd automatingwork
-```
+2. **Initialize Git (if not already done):**
+   ```bash
+   git init
+   ```
 
-### Option B: If the directory exists but isn't a git repo yet (pulling into existing):
+3. **Configure your Git details (if needed):**
+   ```bash
+   git config --global user.name "talnz007"
+   git config --global user.email "Talhaniazai007@gmail.com"
+   ```
 
-```bash
-cd /home/talnz/PythonProjects/automatingwork
-git init
-git remote add origin <URL_OF_YOUR_NEW_REPO>
-git fetch origin
-git checkout main
-# If you get errors about untracked files being overwritten, you may need to force it:
-# git reset --hard origin/main
-```
+4. **Add the remote repository:**
+   If using SSH:
+   ```bash
+   git remote add origin git@github.com:Talnz007/MiBombo.git
+   ```
+   If using HTTPS:
+   ```bash
+   git remote add origin https://github.com/Talnz007/MiBombo.git
+   ```
+
+5. **Fetch the remote branch:**
+   ```bash
+   git fetch origin
+   ```
+
+6. **Reset to remote main branch (preserving venv and whatsapp_session):**
+   Because `venv/` and `whatsapp_session/` are listed in `.gitignore`, performing a hard reset will only populate/overwrite the tracked repository files, leaving your virtual environment and WhatsApp session completely untouched:
+   ```bash
+   git reset --hard origin/main
+   ```
+
 
 ---
 
@@ -41,7 +57,7 @@ The pipeline generates `osint_latest_news.json` and `osint_processed_reports.jso
 
 1. Ensure the script is executable (it should already be, but just in case):
    ```bash
-   chmod +x /home/talnz/PythonProjects/automatingwork/sync_reports.sh
+   chmod +x "/home/talnz/automating work/sync_reports.sh"
    ```
 
 2. Open your crontab editor:
@@ -52,7 +68,7 @@ The pipeline generates `osint_latest_news.json` and `osint_processed_reports.jso
 3. Add the following line to run the sync script automatically (e.g., every hour):
    ```bash
    # Run the OSINT JSON sync script at the top of every hour
-   0 * * * * /home/talnz/PythonProjects/automatingwork/sync_reports.sh >> /home/talnz/PythonProjects/automatingwork/sync.log 2>&1
+   0 * * * * "/home/talnz/automating work/sync_reports.sh" >> "/home/talnz/automating work/sync.log" 2>&1
    ```
    *(Adjust `0 * * * *` to `*/30 * * * *` if you prefer it every 30 minutes).*
 
@@ -64,7 +80,7 @@ Since your `venv` and requirements are already prepared on this machine:
 
 1. **Activate the virtual environment:**
    ```bash
-   source /home/talnz/PythonProjects/automatingwork/venv/bin/activate
+   source "/home/talnz/automating work/venv/bin/activate"
    ```
 
 2. **Ensure Ollama is running in the background:**

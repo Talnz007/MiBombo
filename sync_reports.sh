@@ -2,8 +2,9 @@
 # sync_reports.sh
 # Copies the latest JSON reports from the command center and pushes them to the root repository.
 
-# Navigate to the workspace root
-cd /home/talnz/PythonProjects/automatingwork || exit 1
+# Navigate to the script's directory (the workspace root)
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$SCRIPT_DIR" || exit 1
 
 # Create a data directory to store the synced reports in the root repo
 mkdir -p data
