@@ -166,5 +166,88 @@
             "likes": "17",
             "bookmarks": "1"
         }
+    },
+    {
+        "platform": "twitter",
+        "account": "thewirepak",
+        "url": "https://x.com/thewirepak/status/2066562634972033295",
+        "text": "I firmly stand with my brother \n@SZChatthaPSP\n , one of the best we have. CTD has done well under him as fear has to be enforced. I am sure there will be investigation on the tragic incident and any person involved abusing power will be held accountable.",
+        "date": "2026-06-15T16:45:01.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_thewirepak_2066562634972033295_1781543540496.png",
+        "metrics": {
+            "replies": "2",
+            "reposts": "2",
+            "likes": "15",
+            "bookmarks": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "rizwanghilzai",
+        "url": "https://x.com/rizwanghilzai/status/2066567372190912652",
+        "text": "Pakistan is a major player in the Iran-US deal. Perhaps no other country's passport among Muslim countries mentions Israel. We are the only nuclear power of the Muslim Ummah, we do not recognize Israel either, and the final reason is that we remained neutral in the Iran-Iraq war as well, Nasrat Javed",
+        "date": "2026-06-15T17:03:51.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_rizwanghilzai_2066567372190912652_1781543567358.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "1",
+            "likes": "8",
+            "bookmarks": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "tkckhyber",
+        "url": "https://x.com/TKCkhyber/status/2066568235009679800",
+        "text": "News Alert:  \nHassan Khel: Constable injured in terrorists' firing succumbs to wounds and attains martyrdom  \n\nIn the Hassan Khel area of Sub-Division Peshawar, Constable Abidullah, who was injured in terrorists' firing, succumbed to his wounds and attained martyrdom in the hospital. Police",
+        "date": "2026-06-15T17:07:16.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_tkckhyber_2066568235009679800_1781544372544.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "2",
+            "likes": "3",
+            "bookmarks": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "war_noir",
+        "url": "https://x.com/war_noir/status/2066570276788175246",
+        "text": "#Lebanon / #Israel : Hezbollah FPV Drone chasing and targeting an Israeli Army (\n@IDF\n) soldier at Israeli military site in Misgav Am.\n\nGroup used a very common “Ababil” FPV Kamikaze Drone possibly armed with a PG-7 / PG-7L pattern Anti-Tank RPG.",
+        "date": "2026-06-15T17:15:23.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_war_noir_2066570276788175246_1781544594657.png",
+        "metrics": {
+            "replies": "1",
+            "reposts": "2",
+            "likes": "14"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "war_noir",
+        "url": "https://x.com/war_noir/status/2066570267745251633",
+        "text": "#Lebanon / #Israel : Hezbollah FPV Drone chasing and targeting an Israeli Army (\n@IDF\n) soldier at Israeli military site in Misgav Am.\n\nGroup used a very common “Ababil” FPV Kamikaze Drone possibly armed with a PG-7 / PG-7L pattern Anti-Tank RPG.",
+        "date": "2026-06-15T17:15:21.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_war_noir_2066570267745251633_1781544601771.png",
+        "metrics": {
+            "replies": "1",
+            "reposts": "2",
+            "likes": "14",
+            "bookmarks": "3"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "AtharSb12",
+        "url": "https://x.com/AtharSb12/status/2066568765731746046",
+        "text": "یہ صاحب  مہاجرین نشست پر آزاد کشمیر کے وزیر ٹرانسپورٹ ہیں انکی باتوں سے اندازہ لگائیں کہ موصوف خود کتنے تعلیم یافتہ ہیں \nکشمیری ایک پڑھی لکھی قوم کیسے اپنے بچوں کا مستقبل اس طرح کے ڈنگروں کے حوالے کر سکتی ہے \nگفتگو ملاحظہ فرمائیں",
+        "date": "2026-06-15T17:09:23.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_AtharSb12_2066568765731746046_1781544927601.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "2",
+            "likes": "2",
+            "bookmarks": "0"
+        }
     }
 ]
