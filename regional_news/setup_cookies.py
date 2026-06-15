@@ -427,13 +427,17 @@ acc2_json = """[
 ]"""
 
 def init_cookies():
-    # Make sure we don't overwrite if files exist but we can override twitter_cookies.pkl
-    with open("twitter_cookies_1.pkl", "wb") as f:
+    # Write directly to the root cookies directory
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    cookies_dir = os.path.join(base_dir, "cookies")
+    os.makedirs(cookies_dir, exist_ok=True)
+    
+    with open(os.path.join(cookies_dir, "twitter_cookies_1.pkl"), "wb") as f:
         pickle.dump(json.loads(acc1_json), f)
         
-    with open("twitter_cookies_2.pkl", "wb") as f:
+    with open(os.path.join(cookies_dir, "twitter_cookies_2.pkl"), "wb") as f:
         pickle.dump(json.loads(acc2_json), f)
-    print("New cookies saved to twitter_cookies_1.pkl and twitter_cookies_2.pkl")
+    print(f"New cookies saved to: \n- {os.path.join(cookies_dir, 'twitter_cookies_1.pkl')}\n- {os.path.join(cookies_dir, 'twitter_cookies_2.pkl')}")
 
 if __name__ == "__main__":
     init_cookies()
