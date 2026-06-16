@@ -430,5 +430,60 @@
             "likes": "1",
             "bookmarks": "0"
         }
+    },
+    {
+        "platform": "twitter",
+        "account": "tkckhyber",
+        "url": "https://x.com/TKCkhyber/status/2066664064949063842",
+        "text": "Four Civilians Martyred in Khawarij Attack in Lakki Marwat’s Jabbar Khel\n\nRead more: \nhttps://\nkhyberchronicles.pk/four-civilians\n-martyred-in-khawarij-attack-in-lakki-marwats-jabbar-khel/\n…",
+        "date": "2026-06-15T23:28:04.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_tkckhyber_2066664064949063842_1781567472146.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "0",
+            "likes": "0",
+            "bookmarks": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "tkckhyber",
+        "url": "https://x.com/TKCkhyber/status/2066664003632549906",
+        "text": "Two Fronts Won in One Year; We Will Also Win the Economic and Counter-Terrorism Wars: Khawaja Asif\n\nRead more: \nhttps://\nkhyberchronicles.pk/two-fronts-won\n-in-one-year-we-will-also-win-the-economic-and-counter-terrorism-wars-khawaja-asif/\n…",
+        "date": "2026-06-15T23:27:49.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_tkckhyber_2066664003632549906_1781567478746.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "1",
+            "likes": "0",
+            "bookmarks": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "bytli3",
+        "url": "https://x.com/bytli3/status/2066666519568769093",
+        "text": "| Last night, approximately 50 armed militants from the Tehreek-e-Taliban Pakistan (TTP) movement attacked an army camp in the Panjgur district of Makran province, and set up an ambush for a supply convoy heading to the site; resulting in significant human and material losses",
+        "date": "2026-06-15T23:37:49.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_bytli3_2066666519568769093_1781567895786.png",
+        "metrics": {
+            "replies": "7",
+            "reposts": "14",
+            "likes": "73"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "AtharSb12",
+        "url": "https://x.com/AtharSb12/status/2066670071838019978",
+        "text": "کشمیر تیرے وارث زندہ ہیں جاگتے ہیں \nکشمیری سوتے نہیں ہیں پہرہ دے رہے ہیں",
+        "date": "2026-06-15T23:51:56.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_AtharSb12_2066670071838019978_1781568006978.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "0",
+            "likes": "1",
+            "bookmarks": "0"
+        }
     }
 ]
