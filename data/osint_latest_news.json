@@ -653,5 +653,116 @@
             "likes": "0",
             "bookmarks": "0"
         }
+    },
+    {
+        "platform": "twitter",
+        "account": "pakafghanmatter",
+        "url": "https://x.com/pakafghanmatter/status/2066760236942385319",
+        "text": "In a major IBO near Attock border, Punjab CTD eliminated 5x TTP Fighters during an intense gun battle. The cell had finalised plans for strikes across Punjab. 1 suicide vest, 3 SMGs & 2 grenades were recovered.",
+        "date": "2026-06-16T05:50:13.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_pakafghanmatter_2066760236942385319_1781589268661.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "0",
+            "likes": "0",
+            "bookmarks": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "SouthAsiaIndex",
+        "url": "https://x.com/SouthAsiaIndex/status/2066761584165425283",
+        "text": "Breaking News:\n\n \"If we had known that these would be the final results of the operation (war against Iran),  it is very doubtful if we would have gone to this event.\"\n\n Senior Israeli official to i24 News.",
+        "date": "2026-06-16T05:55:34.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_SouthAsiaIndex_2066761584165425283_1781589583034.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "0",
+            "likes": "10",
+            "bookmarks": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "hasankhyber",
+        "url": "https://x.com/hasankhyber/status/2066762904574320824",
+        "text": "بہت سوں کو پاکستان کی یہ تعریفیں راس نہی آرہی ھے۔۔۔ چلیں یہ تو میں نہی کہہ رھا بلکہ یہ بندہ کہہ رہا ھے کہ پاکستانی قیادت نوبل امن ایوارڈ کا حق دار ھے۔۔",
+        "date": "2026-06-16T06:00:49.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_hasankhyber_2066762904574320824_1781590319901.png",
+        "metrics": {
+            "replies": "1",
+            "reposts": "0",
+            "likes": "0",
+            "bookmarks": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "War_Analysts",
+        "url": "https://x.com/War_Analysts/status/2066762153248604552",
+        "text": "Residents in Miro Darra, Bara, Khyber district have reportedly taken up arms against TTP Kharji terrorists and exchange of fire is ongoing... \n\nEarly reports indicate that several militants were killed and others wounded in the clashes. \n\nMore details are awaited.",
+        "date": "2026-06-16T05:57:50.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_War_Analysts_2066762153248604552_1781590333565.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "1",
+            "likes": "13",
+            "bookmarks": "1"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "War_Analysts",
+        "url": "https://x.com/War_Analysts/status/2066761481400857086",
+        "text": "Those who shed the blood of innocent Pakistanis, face divine retribution.\nBarkat Barkat",
+        "date": "2026-06-16T05:55:10.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_War_Analysts_2066761481400857086_1781590340084.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "1",
+            "likes": "10",
+            "bookmarks": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "tkckhyber",
+        "url": "https://x.com/TKCkhyber/status/2066764013556654326",
+        "text": "EU Envoy Drops Major Warning: Afghan Soil Becomes Global Terror Hub, Backs Pakistan’s Right to Defend Itself\n\nRead more: \nhttps://\nkhyberchronicles.pk/eu-envoy-drops\n-major-warning-afghan-soil-becomes-global-terror-hub-backs-pakistans-right-to-defend-itself/\n…",
+        "date": "2026-06-16T06:05:14.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_tkckhyber_2066764013556654326_1781590478884.png",
+        "metrics": {
+            "replies": "1",
+            "reposts": "0",
+            "likes": "0",
+            "bookmarks": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "tkckhyber",
+        "url": "https://x.com/TKCkhyber/status/2066764078740291958",
+        "text": "EU Envoy Drops Major Warning: Afghan Soil Becomes Global Terror Hub, Backs Pakistan’s Right to Defend Itself\n\nRead more: \nhttps://\nkhyberchronicles.pk/eu-envoy-drops\n-major-warning-afghan-soil-becomes-global-terror-hub-backs-pakistans-right-to-defend-itself/\n…",
+        "date": "2026-06-16T06:05:29.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_tkckhyber_2066764078740291958_1781590485489.png",
+        "metrics": {
+            "replies": "1",
+            "reposts": "0",
+            "likes": "0"
+        }
+    },
+    {
+        "platform": "twitter",
+        "account": "balochistanpost",
+        "url": "https://x.com/BalochistanPost/status/2066763694969626940",
+        "text": "US Air Force's B-52 bomber crashes and is destroyed, all eight personnel killed",
+        "date": "2026-06-16T06:03:58.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_balochistanpost_2066763694969626940_1781590714632.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "0",
+            "likes": "3",
+            "bookmarks": "0"
+        }
     }
 ]
