@@ -569,5 +569,19 @@
             "likes": "9",
             "bookmarks": "1"
         }
+    },
+    {
+        "platform": "twitter",
+        "account": "rizwanghilzai",
+        "url": "https://x.com/rizwanghilzai/status/2066717402440609968",
+        "text": "The CCD that was supposed to save Haniya from the dacoits ended up killing her. When it came to light that the girl was an Australian national, Sohail Zafar Chattha—who is now the head of this beastly department—went to the affected family's home and uttered a single sentence: that our officer did not follow the SOP, as such.",
+        "date": "2026-06-16T03:00:01.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_rizwanghilzai_2066717402440609968_1781580510510.png",
+        "metrics": {
+            "replies": "1",
+            "reposts": "13",
+            "likes": "38",
+            "bookmarks": "0"
+        }
     }
 ]
