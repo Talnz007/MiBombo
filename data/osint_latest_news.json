@@ -485,5 +485,19 @@
             "likes": "1",
             "bookmarks": "0"
         }
+    },
+    {
+        "platform": "twitter",
+        "account": "ForumStrategic",
+        "url": "https://x.com/ForumStrategic/status/2066686459533558191",
+        "text": "Footage of Russian Tu-22M3 Strategic Bomber that crashed in Russia’s Irkutsk Oblast region yesterday.",
+        "date": "2026-06-16T00:57:03.000Z",
+        "screenshot": "/home/talnz/automatingwork/regional_news/output/media/twitter_ForumStrategic_2066686459533558191_1781572067777.png",
+        "metrics": {
+            "replies": "0",
+            "reposts": "1",
+            "likes": "12",
+            "bookmarks": "0"
+        }
     }
 ]

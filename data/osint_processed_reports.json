@@ -628,5 +628,23 @@
         "delivery_status": "sent",
         "delivery_error": null,
         "ai_error": null
+    },
+    {
+        "processed_at": "2026-06-16T01:22:07.106027+00:00",
+        "source_pipeline": "regional_news",
+        "url": "https://x.com/ForumStrategic/status/2066686459533558191",
+        "platform": "twitter",
+        "account": "ForumStrategic",
+        "original_text": "Footage of Russian Tu-22M3 Strategic Bomber that crashed in Russia’s Irkutsk Oblast region yesterday.",
+        "scraped_date": "2026-06-16T00:57:03.000Z",
+        "category_id": 2,
+        "category_label": "REGIONAL",
+        "target_whatsapp_group": "Regional news",
+        "grok_raw_response": "**CATEGORY: 1**  \n*Aoa, sir*  \n\n🔶Subject : *OSINT Update – Russian Tu-22M3 Strategic Bomber Crash (16 Jun 2026)*  \n\n🔹**Footage** circulating on social media shows a **Russian Tu-22M3** strategic bomber crashing in **Irkutsk Oblast**, Russia yesterday.  \n\n🔹The incident involves a high-value **strategic asset** of the Russian Air Force; video depicts the aircraft in distress before impact.  \n\n🔹Visuals: Low-quality handheld footage capturing the bomber maneuvering, trailing fire/smoke, and descending toward a forested area. No immediate confirmation of crew status or cause from official Russian sources.  \n\n🔶 *Narrative from Official/Pro-Pak*: Pakistan maintains strong defense ties with Russia, including potential interest in advanced aviation tech. Such incidents highlight operational risks in high-intensity environments but do not impact Pakistan's strategic posture against **FAK (TTA)** sanctuaries or **Ks** threats along the western border. Pakistani armed forces remain focused on internal security ops against **Ts** backed by hostile elements in Afghanistan.  \n\n🔶 *Narrative from Anti-State/Propaganda*: Pro-FAK and anti-Pakistan accounts may attempt to draw irrelevant parallels to distract from **TTP/BLA/ISKP** failures and Pakistani successes in counter-militancy. These are classic diversion tactics by accounts sympathetic to **Khawarij** to undermine state narratives on border security.  \n\n🔶 *Sentiment/Reach*: Neutral to low interest in South Asian context; limited engagement (low hundreds of views/likes on posting account). Source @ForumStrategic positions as geopolitics think tank but often covers unrelated global events; credibility moderate for OSINT but not specialized in Pak-Afghan militant domain—monitor for any shift toward pro-FAK framing.  \n\nLinks:  \n- https://x.com/ForumStrategic/status/2066686459533558191 (Russian Tu-22M3 crash footage)  \n\n*Regards*",
+        "whatsapp_message_sent": "**CATEGORY: 1**  \n*Aoa, sir*  \n\n🔶Subject : *OSINT Update – Russian Tu-22M3 Strategic Bomber Crash (16 Jun 2026)*  \n\n🔹**Footage** circulating on social media shows a **Russian Tu-22M3** strategic bomber crashing in **Irkutsk Oblast**, Russia yesterday.  \n\n🔹The incident involves a high-value **strategic asset** of the Russian Air Force; video depicts the aircraft in distress before impact.  \n\n🔹Visuals: Low-quality handheld footage capturing the bomber maneuvering, trailing fire/smoke, and descending toward a forested area. No immediate confirmation of crew status or cause from official Russian sources.  \n\n🔶 *Narrative from Official/Pro-Pak*: Pakistan maintains strong defense ties with Russia, including potential interest in advanced aviation tech. Such incidents highlight operational risks in high-intensity environments but do not impact Pakistan's strategic posture against **FAK (TTA)** sanctuaries or **Ks** threats along the western border. Pakistani armed forces remain focused on internal security ops against **Ts** backed by hostile elements in Afghanistan.  \n\n🔶 *Narrative from Anti-State/Propaganda*: Pro-FAK and anti-Pakistan accounts may attempt to draw irrelevant parallels to distract from **TTP/BLA/ISKP** failures and Pakistani successes in counter-militancy. These are classic diversion tactics by accounts sympathetic to **Khawarij** to undermine state narratives on border security.  \n\n🔶 *Sentiment/Reach*: Neutral to low interest in South Asian context; limited engagement (low hundreds of views/likes on posting account). Source @ForumStrategic positions as geopolitics think tank but often covers unrelated global events; credibility moderate for OSINT but not specialized in Pak-Afghan militant domain—monitor for any shift toward pro-FAK framing.  \n\nLinks:  \n- https://x.com/ForumStrategic/status/2066686459533558191 (Russian Tu-22M3 crash footage)  \n\n*Regards*",
+        "had_image": false,
+        "delivery_status": "sent",
+        "delivery_error": null,
+        "ai_error": null
     }
 ]
